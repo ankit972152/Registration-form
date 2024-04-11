@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Registration Form </h1><hr>
+   <i><h2>Kashi Institute of Technology,mirzamurad ,varanasi,up</h2></i>
+    <form id="form" action="/srver">
+      First Name:  <input type="text" id="fname" placeholder="first name" required><br>
+      Last Name:  <input type="text" id="lname" placeholder="last name" required><br>
+      Mobile num: <input type="number" id="num" placeholder="mob.num" required><br>
+
+       Username: <input type="text" id="username" placeholder="username" required><br>  
+        Email id: <input type="email" id="email" placeholder="enter email" required><br>
+        Password: <input type="password" id="password" placeholder="password" required><br>
+        Address: <input type="text" id="address" placeholder="enter address" required><br>
+        Feedback:<input type="feedback" id="feedback"><br>
+        <input type="submit"  id="submit"   value="Register">
+        <input type="reset" id="reset" value="Reset"><hr>
+    </form>
+</body>
+<script>
+var form=document.getElementById('form')
+form.addEventListener('submit',function(event){
+event.preventDefault()
+var username=document.getElementById('username').value
+console.log(username)
+var email=document.getElementById('email').value
+console.log(email)
+var password=document.getElementById('passord').value
+console.log(password)
+var address=document.getElementById('address').value
+console.log(address)
+var feedback=document.getElementById('feedback').value
+console.log(feedback)
+var fname=document.getElementById('fname').value
+console.log(fname)
+var lname=document.getElementById('lname').value
+console.log(lname)
+
+})
+</script>
+</html>

@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 2.5;
+    background-image: url(background-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+    
+
+}
+#feedback{
+    height: 70px;
+    width: 200px;
+}
+#submit{
+    margin-top: 5%;
+    background-color: hsl(120, 92%, 31%);
+    color:white;
+
+}
+#reset{
+    background-color: hsl(0, 100%, 52%);
+    color: white;
+}
